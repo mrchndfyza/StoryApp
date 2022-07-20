@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_logo_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/botanik_logo"
+        android:text="@string/story_app"
+        android:textColor="?attr/customColorFont"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_logo_login"
+        tools:ignore="ImageContrastCheck"
+        android:src="@drawable/sample_avatar" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/nunito_black"
+        android:text="@string/detail"
+        android:textColor="?attr/customColorFont"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_item_photo"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_token"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/nunito_regular"
+        android:text="@string/token"
+        android:gravity="center_vertical"
+        android:textColor="?attr/customColorFont"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name"
+        app:drawableLeftCompat="@drawable/ic_baseline_token"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/nunito_regular"
+        android:text="@string/user_id"
+        android:gravity="center_vertical"
+        android:textColor="?attr/customColorFont"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_token"
+        app:drawableLeftCompat="@drawable/ic_round_id"
+        android:drawablePadding="10dp"/>
+
+    <com.greentea.storyapp2.ui.customview.MyButton
+        android:id="@+id/cv_logout_button"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:enabled="true"
+        android:text="@string/logout"
+        android:fontFamily="@font/nunito_extra_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

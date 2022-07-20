@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="customColorPrimary" format="color"/>
+        <attr name="customColorSecondary" format="color"/>
+        <attr name="customColorFont" format="color"/>
+    </declare-styleable>
+</resources>

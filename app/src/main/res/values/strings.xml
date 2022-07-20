@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">StoryApp2</string>
+    <string name="story_app">Story App</string>
+    <string name="login">Login</string>
+    <string name="login_desc">Silahkan login terlebih dahulu</string>
+    <string name="edt_email">Masukkan email</string>
+    <string name="edt_password">Masukkan password</string>
+    <string name="edt_nama">Masukkan nama</string>
+    <string name="edt_desc">Apa yang kamu lakukan hari ini?</string>
+    <string name="email_warning">Masukkan email</string>
+    <string name="password_warning">Masukkan password</string>
+    <string name="sign_up_link">Belum punya akun? "<u>"Daftar"</u>"</string>
+    <string name="login_link">Sudah punya akun? "<u>"Login"</u>"</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="add">Add Your Story</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nama">Nama</string>
+    <string name="token">Token</string>
+    <string name="user_id">USER ID</string>
+    <string name="logout">Logout</string>
+    <string name="daftar">Daftar</string>
+    <string name="daftar_desc">Silahkan daftar terlebih dahulu</string>
+    <string name="nama_warning">Masukkan nama</string>
+    <string name="date">Date Created</string>
+    <string name="detail">Detail User</string>
+    <string name="galeri">Galeri</string>
+    <string name="kamera">Kamera</string>
+    <string name="unggah">Unggah</string>
+    <string name="desc">Description</string>
+    <string name="daftar_story">Daftar Story</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="retry">Coba Lagi</string>
+</resources>
